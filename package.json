@@ -1,30 +1,37 @@
 {
-  "name": "Hungry",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "tw:build": "tailwindcss build src/css/tailwind.css -o public/css/tailwind.css",
     "tw:prod": "cross-env NODE_ENV=production postcss build ./src/css/tailwind.css -o ./public/css/tailwind.css",
-    "tw:watch": "onchange \"tailwind.config.js\" \"src/**/*.css\" -- npm run tw:build"
+    "tw:watch": "onchange \"tailwind.config.js\" \"src/**/*.css\" -- npm run tw:build",
+    "dev": "nodemon index.js",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "autoprefixer": "^10.1.0",
     "cssnano": "^4.1.10",
+    "express": "^4.17.1",
     "hint": "6.0.x",
+    "ngrok": "^3.4.1",
+    "nodemon": "^2.0.7",
     "onchange": "^7.1.0",
-    "postcss": "^8.2.2",
     "postcss-cli": "^8.3.1",
     "stylelint": "13.3.x",
     "stylelint-config-standard": "20.0.x",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "3.17.x",
-    "tailwindcss": "^2.0.3"
+    "tilt.js": "^1.2.1"
   },
   "devDependencies": {
-    "cross-env": "^7.0.3"
+    "@tailwindcss/jit": "^0.1.1",
+    "autoprefixer": "^10.2.5",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.2.8",
+    "tailwindcss": "^2.0.3"
   }
 }
