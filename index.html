@@ -9,46 +9,32 @@
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css">
 </head>
 <body class="bg-primaryAuxed mx-auto max-w-full">
-  <header class="max-w-full bg-white mx-10 min-h-screen rounded-2xl overflow-hidden px-10">
-    <!-- <nav class="flex justify-between items-baseline w-full mt-10">
-      <div class="w-2/5 text-center">
-        <h3 class=" text-primaryDarktxt font-bold text-4xl hover:text-primary"><a href="/public/index.html">AshakaE</a></h3>
-      </div>
-      <div class="w-3/5 text-tertiary-200 text-xl">
-        <ul class="flex justify-around">
-          <li class="hover:text-primary"><a href="#home">Home</a></li>
-          <li class="hover:text-primary"><a href="#projects">Projects</a></li>
-          <li class="hover:text-primary"><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav> -->
-    
-    <section class="mt-10 relative px-16 pt-16 text-white w-full  bg-gradient-to-br from-primary to-primaryDarktxt mx-auto rounded-2xl">
+  <header class="max-w-full bg-white mx-0 md:mx-10 min-h-screen rounded-2xl overflow-hidden px-10 ">
+    <section class="mt-10 relative md:px-16 md:pt-16 pt-8 px-8 text-white w-full md:text-left text-center bg-gradient-to-br from-primary to-primaryDarktxt mx-auto rounded-2xl">
       <div class="absolute inset-0 rounded-3xl bg-gradient-to-t from-black via-transparent to-transparent opacity-10 img w-auto overflow-hidden">
-        <img src="./public/img/stack.jpg" alt="stack" class="absolute overflow-hidden img rounded-3xl inset-0 object-cover mx-auto">
+        <img src="./public/img/stack.jpg" alt="stack" class="absolute overflow-hidden rounded-3xl hidden md:block inset-0 object-center object-fill md:object-cover mx-auto">
       </div>
-      <div class="flex items-center opacity-100">
-        <div class="h-full w-full relative">
-          <div>
-            <h1 class="text-6xl font-bold">
-              Hi, my name is Ashaka Egerega
+      <div class="flex items-center opacity-100 flex-col md:flex-row">
+        <div class="h-full w-full relative order-last md:order-1">
+          <div class="">
+            <h1 class="md:text-6xl text-3xl font-bold mt-2 md:mt-0">
+              Hi, my name is Ashaka Egerega.
             </h1>
-            <p class="mt-4 text-3xl font">
+            <p class="mt-4 md:text-3xl text-lg">
               I'm a Full-stack developer from Lagos, Nigeria.
             </p> 
           </div>
-          <div class="flex items-baseline">
+          <div class="flex items-baseline justify-center md:justify-start">
             <button type="button" class="mt-8 items-center px-5 py-3 border border-transparent rounded-md hover:shadow-lg text-md font-medium text-white bg-secondary hover:bg-secondaryDark focus:outline-none focus:shadow-inner transform hover:-translate-y-1 cursor-pointer duration-200 active:transform active:shadow-none ">
             <a href="https://docs.google.com/document/d/1xjlJ_3VIcZUiJ8pV3WyZOODFJVmg3KEP2h8nYQDT7AM/edit?usp=sharing" target="_blank">View resume</a>
           </button>
-          <!-- <a href="https://www.dropbox.com/s/bx0lyxw9z8k4zf0/ashaka%20egerega%20_full%20stack%20web%20developer.docx?dl=0" class="ml-6 pb-1 border-b hover:border-secondary text-white font-medium hover:text-secondary transform hover:-translate-y-1 duration-200">Download resume</a> -->
           </div>
         </div>
-        <div>
-          <img src="./public/img/AshakaE.JPG" alt="AshakaE" class="h-80 object-cover w-72 rounded-full transform">
+        <div class="md:order-2">
+          <img src="./public/img/AshakaE.JPG" alt="AshakaE" class="md:h-80 h-64 object-cover md:w-72 rounded-full transform">
         </div>
       </div>
-      <div class="py-8 flex justify-end text-xl relative">
+      <div class="py-8 flex md:justify-end text-xl relative justify-center">
         <ul class="w-60 flex justify-between">
           <a href="https://twitter.com/shaqzee_" target="_blank" class="cursor-pointer"><i class="fab fa-twitter hover:text-primaryAux transform hover:scale-150 duration-200"></i></a>
           <a href="https://github.com/AshakaE" target="_blank" class="cursor-pointer"><i class="fab fa-github hover:text-primaryAux transform hover:scale-150 duration-200"></i></a>
@@ -58,9 +44,9 @@
         </ul>
       </div>
     </section>
-    <h2 class="text-center mt-7 text-primaryDarktxt font-bold text-3xl underline">Projects</h2>
-    <section class="mt-10 flex justify-around">
-      <div>
+    <h2 class="text-center mt-7 text-primaryDarktxt font-bold text-xl md:text-3xl underline">Projects</h2>
+    <section class="mt-10 flex justify-around transform scale-75 md:scale-100">
+      <div class="ml-2 mr-2">
         <a href="https://github.com/AshakaE/TelemotBot" target="_blank">
           <div class="h-64 w-64 rounded-2xl overflow-hidden inline-block shadow-lg" data-tilt data-tilt-scale="1.1">
             <div class="h-3/4">
@@ -75,11 +61,11 @@
           </div>
         </a>
       </div>
-      <div>
+      <div class="ml-2 mr-2">
         <a href="https://github.com/AshakaE/group-our-projects" target="_blank">
           <div class="h-64 w-64 rounded-2xl overflow-hidden inline-block shadow-lg " data-tilt data-tilt-scale="1.1">
             <div class="h-3/4">
-                <img src="./public/img/f1.jpg" alt="" class="object-cover object-center h-48 w-full">
+                <img src="./public/img/f3.jpg" alt="" class="object-cover object-center h-48 w-full">
             </div>
             <div class="h-2/6 bg-tertiary-25 font-medium text-primaryDarktxt text-center px-2 py-5">
               <div class="flex justify-between px-1">
