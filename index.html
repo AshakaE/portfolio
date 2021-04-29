@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css">
 </head>
 <body class="bg-primaryAuxed mx-auto max-w-full">
-  <header class="max-w-full bg-white mx-0 md:mx-10 min-h-screen rounded-2xl overflow-hidden px-10 ">
+  <main class="max-w-full bg-white  min-h-screen rounded-2xl overflow-hidden px-10 pb-10">
     <section class="mt-10 relative md:px-16 md:pt-16 pt-8 px-8 text-white w-full md:text-left text-center bg-gradient-to-br from-primary to-primaryDarktxt mx-auto rounded-2xl">
       <div class="absolute inset-0 rounded-3xl bg-gradient-to-t from-black via-transparent to-transparent opacity-10 img w-auto overflow-hidden">
         <img src="./public/img/stack.jpg" alt="stack" class="absolute overflow-hidden rounded-3xl hidden md:block inset-0 object-center object-fill md:object-cover mx-auto">
@@ -44,40 +44,62 @@
         </ul>
       </div>
     </section>
-    <h2 class="text-center mt-7 text-primaryDarktxt font-bold text-xl md:text-3xl underline">Projects</h2>
-    <section class="mt-10 flex justify-around transform scale-75 md:scale-100">
-      <div class="ml-2 mr-2">
-        <a href="https://github.com/AshakaE/TelemotBot" target="_blank">
-          <div class="h-64 w-64 rounded-2xl overflow-hidden inline-block shadow-lg" data-tilt data-tilt-scale="1.1">
-            <div class="h-3/4">
-                <img src="./public/img/telegrambot.jpg" alt="" class="object-cover object-center h-48 w-full">
-            </div>
-            <div class="h-2/6 bg-tertiary-25 font-medium text-primaryDarktxt text-center px-2 py-5">
-              <div class="flex justify-around px-1">
-                <p class="border-r-2 border-secondary pr-5">Telegram Bot</p>
-                <a href="https://telemot-bot.herokuapp.com/" class="hover:text-secondary duration-75">Live link</a>
-              </div>
-            </div>
+    
+    <section>
+    <h2 class="text-center mt-7 text-primaryDarktxt font-bold text-xl md:text-3xl underline py-8">Projects</h2>
+
+    <div class="grid lg:grid-cols-2 gap-4">
+      <article class="lg:col-span-1 rounded-md shadow-md hover:shadow-lg flex flex-col justify-between bg-primaryAuxed">
+        <div class="">
+          <div class="p-3 h-48 rounded-md" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(&quot;./public/img/f3.jpg&quot;) center center / cover no-repeat;">
+            <h3 class="font-bold text-white text-xl">Projects Organizer</h3>
           </div>
-        </a>
-      </div>
-      <div class="ml-2 mr-2">
-        <a href="https://github.com/AshakaE/group-our-projects" target="_blank">
-          <div class="h-64 w-64 rounded-2xl overflow-hidden inline-block shadow-lg " data-tilt data-tilt-scale="1.1">
-            <div class="h-3/4">
-                <img src="./public/img/f3.jpg" alt="" class="object-cover object-center h-48 w-full">
-            </div>
-            <div class="h-2/6 bg-tertiary-25 font-medium text-primaryDarktxt text-center px-2 py-5">
-              <div class="flex justify-between px-1">
-                <p class="border-r-2 border-secondary pr-5">Projects Organizer</p>
-                <a href="https://mighty-badlands-86456.herokuapp.com/" class="hover:text-secondary duration-75">Live link</a>
-              </div>
-            </div>
+          
+          <p class="p-3">This is an application built with Ruby on Rails to help team members organize projects.</p>
+        </div>
+        <div class="flex justify-between p-3">
+          <ul>
+            <li class="bg-white text-white inline-block px-2 py-1 rounded mr-1 mt-1"><img src="https://icongr.am/devicon/rails-original-wordmark.svg?size=40&color=currentColor" alt="Rails"></li>
+            <li class="bg-white text-white inline-block px-2 py-1 rounded mr-1 mt-1"><img src="https://icongr.am/devicon/postgresql-original-wordmark.svg?size=40&color=currentColor" alt="PostgreSql"></li>
+            <li class="bg-white text-white inline-block px-2 py-1 rounded mr-1 mt-1"><img src="https://icongr.am/devicon/sass-original.svg?size=40&color=currentColor" alt="Sass"></li>
+            <li class="bg-white text-white inline-block px-2 py-1 rounded mr-1 mt-1"><img src="https://icongr.am/devicon/heroku-original.svg?size=40&color=currentColor" alt="Heroku"></li>
+          </ul>
+          <div class="flex gap-2 items-center">
+            <a target="_blank" href="https://mighty-badlands-86456.herokuapp.com/" rel="noopener noreferrer" title="External Link">
+              <i class="fas fa-external-link-alt fa-lg text-blue-800" aria-hidden="true"></i>
+            </a>
+            <a target="_blank" href="https://github.com/AshakaE/group-our-projects" rel="noopener noreferrer" title="Source Code">
+              <i class="fab fa-github fa-lg text-blue-800" aria-hidden="true"></i>
+            </a>
           </div>
-        </a>
-      </div>
-    </section>
-  </header>
+        </div>
+      </article>
+      <article class="lg:col-span-1 rounded-md shadow-md hover:shadow-lg flex flex-col justify-between bg-primaryAuxed">
+        <div>
+          <div class="p-3 h-48 rounded-md" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(&quot;./public/img/telegrambot.png&quot;) center center / cover no-repeat;">
+            <h3 class="font-bold text-white text-xl">Telegram Bot</h3>
+          </div>
+          
+          <p class="p-3">This is a basic Telegram bot that sends the user a random joke or an inspirational quote</p>
+        </div>
+        <div class="flex justify-between p-3">
+          <ul>
+            <li class="bg-white text-white inline-block px-2 py-1 rounded mr-1 mt-1"><img src="https://icongr.am/devicon/ruby-original.svg?size=40&color=currentColor" alt="Ruby"></li>
+          </ul>
+          <div class="flex gap-2 items-center">
+            <a target="_blank" href="https://telemot-bot.herokuapp.com/" rel="noopener noreferrer" title="External Link">
+              <i class="fas fa-external-link-alt fa-lg text-blue-800" aria-hidden="true"></i>
+            </a>
+            <a target="_blank" href="https://github.com/AshakaE/TelemotBot" rel="noopener noreferrer" title="Source Code">
+              <i class="fab fa-github fa-lg text-blue-800" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+  </main>
+  
   <script src="https://unpkg.com/vanilla-tilt@1.7.0/lib/vanilla-tilt.js"></script>
 </body>
 </html>
