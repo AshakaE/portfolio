@@ -18,75 +18,160 @@
   </script>
 </head>
 <body class="bg-primaryAuxed mx-auto max-w-full">
-  <header class="max-w-full bg-white mx-0 md:mx-10 min-h-screen rounded-2xl overflow-hidden px-10 ">
-    <section class="mt-10 relative md:px-16 md:pt-16 pt-8 px-8 text-white w-full md:text-left text-center bg-gradient-to-br from-primary to-primaryDarktxt mx-auto rounded-2xl">
-      <div class="absolute inset-0 rounded-3xl bg-gradient-to-t from-black via-transparent to-transparent opacity-10 img w-auto overflow-hidden">
-        <img src="./public/img/stack.jpg" alt="stack" class="absolute overflow-hidden rounded-3xl hidden md:block inset-0 object-center object-fill md:object-cover mx-auto">
-      </div>
-      <div class="flex items-center opacity-100 flex-col md:flex-row">
-        <div class="h-full w-full relative order-last md:order-1">
-          <div class="">
-            <h1 class="md:text-6xl text-3xl font-bold mt-2 md:mt-0">
-              Hi, my name is Ashaka Egerega.
-            </h1>
-            <p class="mt-4 md:text-3xl text-lg">
-              I'm a Full-stack developer from Lagos, Nigeria.
-            </p> 
+  <nav class="flex justify-between items-center px-10 py-3 bg-white fixed top-0 left-0 right-0 z-10 shadow-md">
+    <a href="#" title="Dev">
+      <img src="https://icongr.am/devicon/devicon-plain.svg?size=40&color=e01515" alt="dev">
+    </a>
+    <div class="flex justify-end">
+      <a class="px-2 py-2 mx-2 my-2 hover:text-[#60BE86]" href="#projects">Projects</a>
+      <!-- <a class="px-2 py-2 mx-2 my-2 hover:text-[#60BE86]" href="#skills">Skills</a> -->
+      <!-- <a class="px-2 py-2 mx-2 my-2" href="#contact">Contact</a> -->
+    </div>
+  </nav>
+  <main class="max-w-full bg-white  min-h-screen rounded-2xl overflow-hidden px-10 pb-10">
+    <div class="flex justify-center min-h-screen flex-col">
+    <section class="mt-10 relative md:px-16 md:pt-16 pt-8 px-8 text-white w-full md:text-left text-center bg-gradient-to-br from-primary to-primaryDarktxt mx-auto rounded-2xl h-2/5">
+        <div class="absolute inset-0 rounded-3xl bg-gradient-to-t from-black via-transparent to-transparent opacity-10 img w-auto overflow-hidden">
+          <img src="./public/img/stack.jpg" alt="stack" class="absolute overflow-hidden rounded-3xl hidden md:block inset-0 object-center object-fill md:object-cover mx-auto">
+        </div>
+        <div class="flex items-center opacity-100 flex-col md:flex-row">
+          <div class="h-full w-full relative order-last md:order-1">
+            <div class="">
+              <h1 class="md:text-6xl text-3xl font-bold mt-2 md:mt-0">
+                Hi, my name is Ashaka Egerega.
+              </h1>
+              <p class="mt-4 md:text-3xl text-lg">
+                I'm a Full-stack developer from Lagos, Nigeria.
+              </p> 
+            </div>
+            <div class="flex items-baseline justify-center md:justify-start">
+              <button type="button" class="mt-8 items-center px-5 py-3 border border-transparent rounded-md hover:shadow-lg text-md font-medium text-white bg-secondary hover:bg-secondaryDark focus:outline-none focus:shadow-inner transform hover:-translate-y-1 cursor-pointer duration-200 active:transform active:shadow-none ">
+              <a href="https://docs.google.com/document/d/1xjlJ_3VIcZUiJ8pV3WyZOODFJVmg3KEP2h8nYQDT7AM/edit?usp=sharing" target="_blank">View resume</a>
+            </button>
+            </div>
           </div>
-          <div class="flex items-baseline justify-center md:justify-start">
-            <button type="button" class="mt-8 items-center px-5 py-3 border border-transparent rounded-md hover:shadow-lg text-md font-medium text-white bg-secondary hover:bg-secondaryDark focus:outline-none focus:shadow-inner transform hover:-translate-y-1 cursor-pointer duration-200 active:transform active:shadow-none ">
-            <a href="https://docs.google.com/document/d/1xjlJ_3VIcZUiJ8pV3WyZOODFJVmg3KEP2h8nYQDT7AM/edit?usp=sharing" target="_blank">View resume</a>
-          </button>
+          <div class="md:order-2">
+            <img src="./public/img/AshakaE.JPG" alt="AshakaE" class="md:h-80 h-64 object-cover md:w-72 rounded-full transform">
           </div>
         </div>
-        <div class="md:order-2">
-          <img src="./public/img/AshakaE.JPG" alt="AshakaE" class="md:h-80 h-64 object-cover md:w-72 rounded-full transform">
+        <div class="py-8 flex md:justify-end text-xl relative justify-center">
+          <ul class="w-60 flex justify-between">
+            <a href="https://twitter.com/shaqzee_" target="_blank" class="cursor-pointer"><i class="fab fa-twitter hover:text-primaryAux transform hover:scale-150 duration-200"></i></a>
+            <a href="https://github.com/AshakaE" target="_blank" class="cursor-pointer"><i class="fab fa-github hover:text-primaryAux transform hover:scale-150 duration-200"></i></a>
+            <!-- <a href="tel://+2347088277747" target="_blank" class="cursor-pointer"><i class="fas fa-phone hover:text-primaryAux transform hover:scale-150 duration-200"></i></a> -->
+            <a href="mailto:ashakaegerega@gmail.com" target="_blank" class="cursor-pointer"><i class="fas fa-envelope hover:text-primaryAux transform hover:scale-150 duration-200"></i></a>
+            <a href="https://angel.co/u/ashakae" target="_blank" class="cursor-pointer"><i class="fab fa-angellist hover:text-primaryAux transform hover:scale-150 duration-200"></i></a>
+            <a href="https://www.linkedin.com/in/ashakae/"target="_blank" class="cursor-pointer"><i class="fab fa-linkedin hover:text-primaryAux transform hover:scale-150 duration-200"></i></a>       
+          </ul>
         </div>
-      </div>
-      <div class="py-8 flex md:justify-end text-xl relative justify-center">
-        <ul class="w-60 flex justify-between">
-          <a href="https://twitter.com/shaqzee_" target="_blank" class="cursor-pointer"><i class="fab fa-twitter hover:text-primaryAux transform hover:scale-150 duration-200"></i></a>
-          <a href="https://github.com/AshakaE" target="_blank" class="cursor-pointer"><i class="fab fa-github hover:text-primaryAux transform hover:scale-150 duration-200"></i></a>
-          <!-- <a href="tel://+2347088277747" target="_blank" class="cursor-pointer"><i class="fas fa-phone hover:text-primaryAux transform hover:scale-150 duration-200"></i></a> -->
-          <a href="mailto:ashakaegerega@gmail.com" target="_blank" class="cursor-pointer"><i class="fas fa-envelope hover:text-primaryAux transform hover:scale-150 duration-200"></i></a>
-          <a href="https://www.linkedin.com/in/ashakae/"target="_blank" class="cursor-pointer"><i class="fab fa-linkedin hover:text-primaryAux transform hover:scale-150 duration-200"></i></a>       
-        </ul>
-      </div>
-    </section>
-    <h2 class="text-center mt-7 text-primaryDarktxt font-bold text-xl md:text-3xl underline">Projects</h2>
-    <section class="mt-10 flex justify-around transform scale-75 md:scale-100">
-      <div class="ml-2 mr-2">
-        <a href="https://github.com/AshakaE/TelemotBot" target="_blank">
-          <div class="h-64 w-64 rounded-2xl overflow-hidden inline-block shadow-lg" data-tilt data-tilt-scale="1.1">
-            <div class="h-3/4">
-                <img src="./public/img/telegrambot.jpg" alt="" class="object-cover object-center h-48 w-full">
-            </div>
-            <div class="h-2/6 bg-tertiary-25 font-medium text-primaryDarktxt text-center px-2 py-5">
-              <div class="flex justify-around px-1">
-                <p class="border-r-2 border-secondary pr-5">Telegram Bot</p>
-                <a href="https://telemot-bot.herokuapp.com/" class="hover:text-secondary duration-75">Live link</a>
-              </div>
-            </div>
+      </section>
+    </div>
+    
+    <section id="projects">
+    <h2 class="text-center text-primaryDarktxt font-bold text-xl md:text-3xl underline py-8 mt-16">Projects</h2>
+    <div class="grid lg:grid-cols-2 gap-4">
+      <article class="lg:col-span-1 rounded-md shadow-md hover:shadow-lg flex flex-col justify-between bg-gray-100">
+        <div class="">
+          <div class="p-3 h-48 rounded-md" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(&quot;./public/img/f3.jpg&quot;) center center / cover no-repeat;">
+            <h3 class="font-bold text-white text-xl">Projects Organizer</h3>
           </div>
-        </a>
-      </div>
-      <div class="ml-2 mr-2">
-        <a href="https://github.com/AshakaE/group-our-projects" target="_blank">
-          <div class="h-64 w-64 rounded-2xl overflow-hidden inline-block shadow-lg " data-tilt data-tilt-scale="1.1">
-            <div class="h-3/4">
-                <img src="./public/img/f3.jpg" alt="" class="object-cover object-center h-48 w-full">
-            </div>
-            <div class="h-2/6 bg-tertiary-25 font-medium text-primaryDarktxt text-center px-2 py-5">
-              <div class="flex justify-between px-1">
-                <p class="border-r-2 border-secondary pr-5">Projects Organizer</p>
-                <a href="https://mighty-badlands-86456.herokuapp.com/" class="hover:text-secondary duration-75">Live link</a>
-              </div>
-            </div>
+          
+          <p class="p-3">This is an application built with Ruby on Rails to help team members organize projects.</p>
+        </div>
+        <div class="flex justify-between p-3">
+          <ul>
+            <li class="bg-white text-white inline-block px-2 py-1 rounded mr-1 mt-1"><img src="https://icongr.am/devicon/rails-original-wordmark.svg?size=40&color=currentColor" alt="Rails"></li>
+            <li class="bg-white text-white inline-block px-2 py-1 rounded mr-1 mt-1"><img src="https://icongr.am/devicon/postgresql-original-wordmark.svg?size=40&color=currentColor" alt="PostgreSql"></li>
+            <li class="bg-white text-white inline-block px-2 py-1 rounded mr-1 mt-1"><img src="https://icongr.am/devicon/sass-original.svg?size=40&color=currentColor" alt="Sass"></li>
+            <li class="bg-white text-white inline-block px-2 py-1 rounded mr-1 mt-1"><img src="https://icongr.am/devicon/heroku-original.svg?size=40&color=currentColor" alt="Heroku"></li>
+            <li class="bg-white text-white inline-block px-2 py-1 rounded mr-1 mt-1"><img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Heroku" width="40" height="40"></li>
+          </ul>
+          <div class="flex gap-2 items-center">
+            <a target="_blank" href="https://mighty-badlands-86456.herokuapp.com/" rel="noopener noreferrer" title="External Link">
+              <i class="fas fa-external-link-alt fa-lg text-blue-800" aria-hidden="true"></i>
+            </a>
+            <a target="_blank" href="https://github.com/AshakaE/group-our-projects" rel="noopener noreferrer" title="Source Code">
+              <i class="fab fa-github fa-lg text-blue-800" aria-hidden="true"></i>
+            </a>
           </div>
-        </a>
-      </div>
+        </div>
+      </article>
+      <article class="lg:col-span-1 rounded-md shadow-md hover:shadow-lg flex flex-col justify-between bg-gray-100">
+        <div>
+          <div class="p-3 h-48 rounded-md" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(&quot;./public/img/gameShot.jpeg&quot;) center center / cover no-repeat;">
+            <h3 class="font-bold text-white text-xl">Coin runner</h3>
+          </div>
+          
+          <p class="p-3">An endless running game where the player jumps from platform to platform avoiding falls and flames, the player collects coin on random platforms.</p>
+        </div>
+        <div class="flex justify-between p-3">
+          <ul>
+            <li class="bg-white text-white inline-block px-2 py-1 rounded mr-1 mt-1"><img src="https://www.vectorlogo.zone/logos/phaserio/phaserio-icon.svg" alt="Phaser" width="40" height="40"></li>
+            <li class="bg-white text-white inline-block px-2 py-1 rounded mr-1 mt-1"><img src="https://icongr.am/devicon/webpack-original.svg?size=40&color=currentColor" alt="Webpack" width="40" height="40"></li>
+            <li class="bg-white text-white inline-block px-2 py-1 rounded mr-1 mt-1"><img src="https://icongr.am/devicon/javascript-original.svg?size=40&color=currentColor" alt="JavaScript" width="40" height="40"></li>
+            <li class="bg-white text-white inline-block px-2 py-1 rounded mr-1 mt-1"><img src="https://icongr.am/devicon/css3-original.svg?size=40&color=currentColor" alt="CSS3" width="40" height="40"></li>
+          </ul>
+          <div class="flex gap-2 items-center">
+            <a target="_blank" href="https://coin-runner.netlify.app/" rel="noopener noreferrer" title="External Link">
+              <i class="fas fa-external-link-alt fa-lg text-blue-800" aria-hidden="true"></i>
+            </a>
+            <a target="_blank" href="https://github.com/AshakaE/coin-runner" rel="noopener noreferrer" title="Source Code">
+              <i class="fab fa-github fa-lg text-blue-800" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </article>
+      <article class="lg:col-span-1 rounded-md shadow-md hover:shadow-lg flex flex-col justify-between bg-gray-100">
+        <div>
+          <div class="p-3 h-48 rounded-md" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(&quot;./public/img/webshot.jpeg&quot;) center center / cover no-repeat;">
+            <h3 class="font-bold text-white text-xl">Weather App</h3>
+          </div>
+          
+          <p class="p-3">This is a basic Weather Application that consumes OpenWeather API to populate the targeted fields in the DOM.</p>
+        </div>
+        <div class="flex justify-between p-3">
+          <ul>
+            <li class="bg-white text-white inline-block px-2 py-1 rounded mr-1 mt-1"><img src="https://icongr.am/devicon/javascript-original.svg?size=40&color=currentColor" alt="JavaScript" width="40" height="40"></li>
+            <li class="bg-white text-white inline-block px-2 py-1 rounded mr-1 mt-1"><img src="https://icongr.am/devicon/css3-original.svg?size=40&color=currentColor" alt="CSS3" width="40" height="40"></li>
+            <li class="bg-white text-white inline-block px-2 py-1 rounded mr-1 mt-1"><img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Heroku" width="40" height="40"></li>
+          </ul>
+          <div class="flex gap-2 items-center">
+            <a target="_blank" href="https://0-weather-app.netlify.app/" rel="noopener noreferrer" title="External Link">
+              <i class="fas fa-external-link-alt fa-lg text-blue-800" aria-hidden="true"></i>
+            </a>
+            <a target="_blank" href="https://github.com/AshakaE/coin-runner" rel="noopener noreferrer" title="Source Code">
+              <i class="fab fa-github fa-lg text-blue-800" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </article>
+      <article class="lg:col-span-1 rounded-md shadow-md hover:shadow-lg flex flex-col justify-between bg-gray-100">
+        <div>
+          <div class="p-3 h-48 rounded-md" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(&quot;./public/img/Impulse.png&quot;) center center / cover no-repeat;">
+            <h3 class="font-bold text-white text-xl">Impulse</h3>
+          </div>
+          
+          <p class="p-3">This is a basic Telegram bot that sends the user a random joke or an inspirational quote</p>
+        </div>
+        <div class="flex justify-between p-3">
+          <ul>
+            <li class="bg-white text-white inline-block px-2 py-1 rounded mr-1 mt-1"><img src="https://icongr.am/devicon/ruby-original.svg?size=40&color=currentColor" alt="JavaScript" width="40" height="40"></li>
+            <li class="bg-white text-white inline-block px-2 py-1 rounded mr-1 mt-1"><img src="https://www.vectorlogo.zone/logos/telegram/telegram-icon.svg" alt="CSS3" width="40" height="40"></li>
+          </ul>
+          <div class="flex gap-2 items-center">
+            <a target="_blank" href="telemot-bot.herokuapp.com/" rel="noopener noreferrer" title="External Link">
+              <i class="fas fa-external-link-alt fa-lg text-blue-800" aria-hidden="true"></i>
+            </a>
+            <a target="_blank" href="https://github.com/AshakaE/TelemotBot" rel="noopener noreferrer" title="Source Code">
+              <i class="fab fa-github fa-lg text-blue-800" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </article>
+    </div>
     </section>
-  </header>
+  </main>
+  
   <script src="https://unpkg.com/vanilla-tilt@1.7.0/lib/vanilla-tilt.js"></script>
 </body>
 </html>
