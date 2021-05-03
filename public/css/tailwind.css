@@ -1133,6 +1133,14 @@ video {
 	--tw-bg-opacity: 1;
 	background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
 }
+.bg-primaryDarktxt{
+	--tw-bg-opacity: 1;
+	background-color: rgba(2, 0, 122, var(--tw-bg-opacity));
+}
+.bg-primaryDarktxtExt{
+	--tw-bg-opacity: 1;
+	background-color: rgba(1, 0, 71, var(--tw-bg-opacity));
+}
 .bg-\[\#0f0\]{
 	--tw-bg-opacity: 1;
 	background-color: rgba(0, 255, 0, var(--tw-bg-opacity));
@@ -1300,6 +1308,10 @@ video {
 	padding-top: 0.25rem;
 	padding-bottom: 0.25rem;
 }
+.py-6{
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
 .px-3{
 	padding-left: 0.75rem;
 	padding-right: 0.75rem;
@@ -1309,6 +1321,15 @@ video {
 }
 .pt-8{
 	padding-top: 2rem;
+}
+.pt-4{
+	padding-top: 1rem;
+}
+.pb-2{
+	padding-bottom: 0.5rem;
+}
+.pb-6{
+	padding-bottom: 1.5rem;
 }
 .pt-1{
 	padding-top: 0.25rem;
@@ -1342,6 +1363,10 @@ video {
 .text-xl{
 	font-size: 1.25rem;
 	line-height: 1.75rem;
+}
+.text-base{
+	font-size: 1rem;
+	line-height: 1.5rem;
 }
 .text-\[2\.23rem\]{
 	font-size: 2.23rem;
@@ -2038,6 +2063,9 @@ video {
 	}
 	.md\:justify-end{
 		justify-content: flex-end;
+	}
+	.md\:justify-center{
+		justify-content: center;
 	}
 	.md\:object-cover{
 		-o-object-fit: cover;
